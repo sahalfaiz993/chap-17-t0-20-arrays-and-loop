@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+var arr=["Apple","Mango","Banana","Orange","Strawbery"];
+var user=prompt("what do you want");
+
+var ab=arr.indexOf(user);
+
+ if (ab!==-1){
+    document.write(user + "Available at index " + ab);
+ 
+
+ }
+else{
+    
+    document.write(` We Are Sorry. ${user} is not available our bakery ` );
+
+}
+
+
+
+
+// var found=false;
+
+// for(var i=0;i<arr.length;i++){
+
+//     if(user===arr[i]){
+
+//         document.write(user + "Available at index " + i);
+ 
+
+       
+//         found=true;
+//     }
+
+    
+    
+    
+// }
+
+// if(found===false){
+//     document.write(`We Are Sorry. ${user} is not available our bakery`);
+// }
+
+
+
+// document.write(arr[0].join(" ")+"<br>"+arr[1].join(" ")+"<br>"+arr[2].join(" "));
+
+
+
+    </script>
+</body>
+</html>
